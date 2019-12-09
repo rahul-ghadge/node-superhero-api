@@ -1,0 +1,20 @@
+{
+  "name": "node-superhero-api",
+  "version": "1.0.0",
+  "description": "Super hero details application",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Express",
+    "RestAPI",
+    "Notes"
+  ],
+  "author": "Rahul Ghadage",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.17.1"
+  }
+}
