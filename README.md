@@ -41,7 +41,6 @@ Request- ```{
         "age": 30,
         "canFly": false
     }```
-
 &nbsp;&nbsp;- This API will return success message along with all super hero present in team</br>
 
 
