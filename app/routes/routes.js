@@ -1,6 +1,6 @@
 
 module.exports = (app) => {
-    const superHeroController = require('../controllers/cotroller.js');
+    const superHeroController = require('../controllers/controller.js');
 
     // Create a new super hero
     app.post('/super-heros', superHeroController.create);
