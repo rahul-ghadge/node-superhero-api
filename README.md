@@ -34,7 +34,7 @@ http://localhost:3000/super-heros/Tony **(GET Method)**</br>
 
 
 http://localhost:3000/super-heros **(POST Method)**</br>
-&nbsp;&nbsp;- ```{
+Request- ```{
         "name": "Black panther",
         "superName": "Black panther",
         "profession": "King",
@@ -47,13 +47,12 @@ http://localhost:3000/super-heros **(POST Method)**</br>
 
 
 http://localhost:3000/super-heros/Wade **(PUT Method)**</br>
-&nbsp;&nbsp;- ```{
+Request:- ```{
         "name": "Wade",
         "superName": "Deadpool",
         "profession": "Street fighter",
         "age": 28,
-        "canFly": false
-    
+        "canFly": false    
     }```
 &nbsp;&nbsp;- This API will update Deadpools data from flying to non-flying</br>
 Response:- ```{
