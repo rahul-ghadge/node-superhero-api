@@ -1,0 +1,63 @@
+[
+
+// ** get all super heros data **
+
+// GET - http://localhost:3000/super-heros
+
+
+
+
+
+// ** get single super heros data by name **
+
+// GET - http://localhost:3000/super-heros/Tony
+
+
+
+
+
+// ** Add new super heros to the team **
+
+// POST - http://localhost:3000/super-heros
+
+{
+	"name": "Black panther",
+    "superName": "Black panther",
+    "profession": "King",
+    "age": 30,
+    "canFly": false
+}
+
+
+
+
+,
+// ** Update single super heros data by name **
+
+// PUT - http://localhost:3000/super-heros/Wade
+{
+    "name": "Wade",
+    "superName": "Deadpool",
+    "profession": "Street fighter",
+    "age": 28,
+    "canFly": false
+
+}
+
+
+
+
+
+
+
+// ** Delete single super heros data by name **
+
+// DELETE - http://localhost:3000/super-heros/Wade
+
+
+
+
+
+
+
+]
